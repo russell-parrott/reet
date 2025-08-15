@@ -28,7 +28,7 @@ This includes:
 
 ## Design Principles
 
-Structural Governance Standard for A is based on the principle that trust in AI cannot be declared — it must be a system condition that is designed, tested, and proven in operation.  
+Structural Governance Standard for AI is based on the principle that trust in AI cannot be declared — it must be a system condition that is designed, tested, and proven in operation.  
 Each safeguard is mapped to a structural question, verified through an operational test, and anchored to an audit trail capable of withstanding cross-jurisdictional challenges.
 
 ## Provenance
