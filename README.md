@@ -2,13 +2,13 @@
 
 # Structural Governance Standard for AI
 
-This repository is the authoritative public record of the Structural Governance Standard for AI — a complete, testable oversight framework built on the Q1–Q15 verification set, including procedures, pass/fail criteria, and evidence formats.
+This repository is the authoritative public record of the Structural Governance Standard for AI — a complete, verifiable oversight framework built on the Q1–Q15 verification set, including structural questions, pass/fail criteria, and evidence formats.
 
-The Standard formally defines AI governance as a discipline in its own right. It treats compliance not as a statement of intent, but as an engineered system condition that is designed, tested, and proven in operation.
+The Standard formally defines AI governance as a discipline in its own right. It treats compliance not as a statement of intent, but as an engineered system condition that can be independently verified in operation.
 
-It integrates a universal breach taxonomy, operational countermeasures, live structural tests, and dynamic safeguards to ensure governance remains enforceable over time.
+It integrates a universal breach taxonomy, operational countermeasures, structural verification methods, and dynamic safeguards to ensure governance remains enforceable over time.
 
-The Standard defines, tests, and enforces the conditions under which trust in AI systems can be established, preserved, and demonstrably proven.
+The Standard defines and sets the conditions under which trust in AI systems can be established, preserved, and demonstrably proven.
 
 ## Components
 
@@ -21,15 +21,15 @@ The Standard defines, tests, and enforces the conditions under which trust in AI
 
 ## Design Principles
 
-Structural Governance Standard for AI is based on the principle that trust in AI cannot be declared — it must be a system condition that is designed, tested, and proven in operation.
+Structural Governance Standard for AI is based on the principle that trust in AI cannot be declared — it must be a system condition that is designed and able to be proven in operation.
 
-Each safeguard is mapped to a structural question, verified through an operational test, and anchored to an audit trail capable of withstanding cross-jurisdictional challenges.
+Each safeguard is mapped to a structural question, with defined criteria for verifying compliance, and anchored to an audit trail capable of withstanding cross-jurisdictional challenges.
 
 ## Provenance
 
-Structural Governance Standard for AI was originated and published by **Russell Parrott** in 2025.  
+Structural Governance Standard for AI was originated and published by Russell Parrott in 2025.
 
-This repository constitutes the authoritative public record of the doctrine, including its definitions, test methods, and canonical schemas.
+This repository constitutes the authoritative public record of the doctrine, including its definitions, criteria, and canonical schemas.
 
 DOI: [![DOI](https://zenodo.org/badge/1038390482.svg)](https://doi.org/10.5281/zenodo.16880174)
 
