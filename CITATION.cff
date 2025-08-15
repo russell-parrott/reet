@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Refusal Logic — Formal Definition"
+title: "Structural Governance Standard for AI — Formal Definition"
 message: "If you use this concept in your work, please cite it as below."
 authors:
   - family-names: "Parrott"
@@ -9,4 +9,4 @@ version: "1.0.0"
 doi: "10.5281/zenodo.16880175"
 license: "CC-BY-ND-4.0"
 repository-code: "https://github.com/russell-parrott/refusal_logic"
-abstract: "Refusal Logic is a structural safeguard for AI systems, ensuring any decision can be stopped, altered, or redirected before it causes harm or becomes binding—without penalty to the user—while preserving an alternative pathway, creating an auditable record, and enabling cross-jurisdictional oversight."
+abstract: "Structural Governance Standard for AI is a structural safeguard for AI systems, ensuring any decision can be stopped, altered, or redirected before it causes harm or becomes binding—without penalty to the user—while preserving an alternative pathway, creating an auditable record, and enabling cross-jurisdictional oversight."
