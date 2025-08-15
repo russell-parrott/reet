@@ -4,6 +4,8 @@
 
 This repository is the authoritative public record of the Structural Governance Standard for AI — a complete, testable oversight system built on the Q1–Q15 verification set (procedures, pass/fail criteria, and evidence formats).
 
+This framework formally defines and establishes Structural Governance Standard for AI as a discipline within AI oversight. Structural Governance Standard for AI treats compliance not as a declared intention but as an engineered system condition designed, tested, and proven in operation.  It combines a universal breach taxonomy, operational counter-measures, live structural tests, and dynamic-system safeguards to ensure governance remains enforceable over time.
+
 It defines, tests, and enforces the conditions under which trust in AI systems can be established, preserved, and proven over time.
 
 ##  Structural Governance Standard for AI
