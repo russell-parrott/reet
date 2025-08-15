@@ -10,16 +10,6 @@ It integrates a universal breach taxonomy, operational countermeasures, live str
 
 The Standard defines, tests, and enforces the conditions under which trust in AI systems can be established, preserved, and demonstrably proven.
 
-##  Structural Governance Standard for AI
-
-The Structural Governance Standard for AI covers the full framework required to make AI governance enforceable in operation.  
-
-This includes:
-
-- **The 15 Structural Questions** — a universal trust interrogation framework applicable across jurisdictions and sectors.
-- **Operational Countermeasures** — safeguards that make affirmative answers enforceable in live systems, including but not limited to the stop/redirect mechanism.
-- **Structural Tests** — pass/fail verifications linked to each structural question to prove compliance.
-
 ## Components
 
 | Directory | Description |
