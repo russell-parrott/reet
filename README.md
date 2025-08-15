@@ -27,7 +27,6 @@ This includes:
 |-----------|-------------|
 | `/doctrine/` | Foundational documents, including the 15 Structural Questions and the full set of operational countermeasures. |
 | `/tests/` | Structural test definitions linked to each question and safeguard. |
-| `/spec/` | Canonical data schemas and export formats for refusal events, audit logs, and structural compliance reporting. |
 | `/policy/` | Cross-jurisdiction governance notes and evidence chain considerations. |
 | `./` | Publication record and provenance documentation. |
 
