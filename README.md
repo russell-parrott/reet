@@ -33,7 +33,7 @@ Each safeguard is mapped to a structural question, verified through an operation
 
 ## Provenance
 
-Structural Governance Standard for A was originated and published by **Russell Parrott** in 2025.  
+Structural Governance Standard for AI was originated and published by **Russell Parrott** in 2025.  
 This repository constitutes the authoritative public record of the doctrine, including its definitions, test methods, and canonical schemas.
 
 DOI: [![DOI](https://zenodo.org/badge/1038390482.svg)](https://doi.org/10.5281/zenodo.16880174)
