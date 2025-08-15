@@ -1,34 +1,28 @@
 [![DOI](https://zenodo.org/badge/1038390482.svg)](https://doi.org/10.5281/zenodo.16880174)
 
-# Refusal Logic — Formal Definition  
-*First formally defined in* *Trust in Systems* *(Russell Parrott, 2025)*  
+# Refusal Logic
 
-## Formal Definition  
-Refusal Logic is the first of four structural conditions of trust in AI systems. It is the engineered capacity to interrupt, halt, or redirect an active decision pathway before a binding or enforceable outcome occurs — without causing disadvantage to the affected party — and while providing access to an equivalent alternative pathway.
+Refusal Logic is a complete structural governance discipline for AI oversight.  
+It defines, tests, and enforces the conditions under which trust in AI systems can be established, preserved, and proven over time.
 
-### Core Requirements  
-- **No Penalty** – Refusal must not result in delays, reduced quality, or exclusion from equivalent outcomes.  
-- **Alternative Pathway** – A non-AI or equivalent route must be available.  
-- **Pre-Enforcement Intervention** – Refusal must occur before the decision takes effect.  
-- **Audit Trail** – Each refusal is logged with timestamp, classification, and jurisdiction-agnostic record format.  
-- **Oversight Access** – Logs must be accessible to regulators or accredited third parties without system-owner permission.  
+This discipline covers:
+- The **15 Structural Questions** — a universal trust interrogation framework.
+- The **Operational Countermeasures** — safeguards that make "yes" answers enforceable, including stop/redirect.
+- The **Structural Tests** — pass/fail verifications linked to each question.
+- The **Audit Architecture** — event formats and schemas that survive jurisdictional differences.
 
-### Policy Relevance  
-Refusal Logic preserves the operational integrity of the remaining three trust conditions — Escalation, Exit, and Accountability. Its audit trail is explicitly designed to survive jurisdictional change, making it suitable for cross-border deployment in education, business, and public service systems.  
+## Why It Matters
+Without structural enforcement, AI governance collapses into declared intent. Refusal Logic treats trust as a system condition — designed, tested, and proven in operation.
 
----
+## Core Components
+1. `/doctrine/structural-questions.md` — The full set of governance questions.
+2. `/doctrine/countermeasures.md` — All safeguards required, not just refusal.
+3. `/tests/structural-tests.md` — Linked tests to verify compliance.
+4. `/spec/full-structural.schema.json` — Canonical schema for cross-system traceability.
 
-## Plain Language Version  
-Refusal Logic is a safeguard that lets people stop or change what an AI is about to do — before it can cause harm or lock in a decision — without being punished or losing access to the service.
-
-If you say “no” to the AI’s action, you can still get the same result another way, without delay, penalty, or reduced quality.
-
-### How it works:  
-- Saying no must not hurt you.  
-- There must be another way to get the result.  
-- You must be able to act before the AI’s decision takes effect.  
-- Every refusal is recorded so it can be checked later.  
-- Those records must be open to independent review.  
+## Provenance
+Refusal Logic was originated and published by **Russell Parrott** in 2025.  
+DOI: [![DOI](https://zenodo.org/badge/DOI/PLACEHOLDER.svg)](https://doi.org/PLACEHOLDER)
 
 ---
 
