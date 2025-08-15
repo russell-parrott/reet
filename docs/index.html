@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Refusal Logic — Structural Questions a carousel</title>
+		<meta name="description" content="The 15 Structural Questions for trustworthy AI systems, plus cover and CTA slides." />
+		<style>
+		:root {
+		  --bg:#0b0c0c; --fg:#f6f7f9; --muted:#aab0b6; --accent:#9ad1ff; --card:#141618;
+		  --pad:clamp(16px,3vw,32px); --radius:18px; --w:min(1000px,92vw);
+		}
+		*{box-sizing:border-box}
+		html,body{height:100%}
+		body{
+		  margin:0; font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Inter,Ubuntu,"Helvetica Neue",Arial,sans-serif;
+		  background:linear-gradient(180deg,#0a0c10,#0b0c0c 30%,#0b0c0c);
+		  color:var(--fg); display:flex; align-items:center; justify-content:center;
+		}
+		.deck{width:var(--w); max-height:100dvh; display:grid; grid-template-rows:auto 1fr auto; gap:14px}
+		header,footer{display:flex; align-items:center; justify-content:space-between; gap:10px}
+		header{opacity:.9}
+		.brand{font-weight:700; letter-spacing:.2px}
+		.doi{color:var(--muted); font-size:.9rem}
+		.slide{
+		  background:var(--card); border:1px solid #21262d; border-radius:var(--radius);
+		  padding:var(--pad); box-shadow:0 10px 30px rgba(0,0,0,.35); display:none;
+		}
+		.slide.active{display:block}
+		h1{margin:0 0 8px 0; font-size:clamp(22px,4vw,36px); line-height:1.2; border-bottom:1px solid var(--muted); padding-bottom:0.5rem;}
+		h2{margin:.2rem 0 1rem 0; font-size:clamp(14px,2.2vw,18px); font-weight:500}
+		ul{margin:.6rem 0 0 1.1rem}
+		li{margin:.25rem 0; padding-left:.2rem}
+		.nav{
+		  display:flex; align-items:center; justify-content:space-between; gap:10px;
+		  background:#0f1216; border:1px solid #1e232a; border-radius:var(--radius); padding:10px 12px;
+		}
+		.btn{
+		  background:#1b222c; color:var(--fg); border:1px solid #2a3340; border-radius:12px;
+		  padding:10px 14px; cursor:pointer; font-weight:600;
+		}
+		.btn:disabled{opacity:.4; cursor:not-allowed}
+		.index{color:var(--muted); font-variant-numeric:tabular-nums}
+		.dots{display:flex; gap:6px; align-items:center; overflow:auto}
+		.dot{
+		  width:8px; height:8px; border-radius:999px; background:#2b323a; flex:0 0 auto; opacity:.6
+		}
+		.dot.active{background:var(--accent); opacity:1}
+		a, .cta a{color:var(--accent); text-decoration:none}
+		.cta{margin-top:1rem; font-size:.98rem}
+		.small{font-size:.92rem; color:var(--muted)}
+		.kbd{border:1px solid #2a3340; padding:.1rem .35rem; border-radius:6px; background:#13181f; color:#dfe7ef}
+		@media (prefers-reduced-motion:no-preference){
+		  .slide{animation:fade .18s ease-out}
+		  @keyframes fade{from{opacity:.5; transform:translateY(4px)} to{opacity:1; transform:none}}
+		}
+		</style>
+		<script type="application/ld+json">
+			{
+			  "@context": "https://schema.org",
+			  "@type": ["WebPage","TechArticle"],
+			  "name": "Refusal Logic — The 15 Structural Questions",
+			  "headline": "Trust in AI is Structural, Not Sentiment",
+			  "description": "Standards-ready checklist: the 15 Structural Questions for trustworthy AI systems, with question/test views and links to schemas and tests.",
+			  "inLanguage": "en",
+			  "datePublished": "2025-08-15",
+			  "dateModified": "2025-08-15",
+			  "license": "https://creativecommons.org/licenses/by-nd/4.0/",
+			  "isPartOf": {
+				"@type": "CreativeWorkSeries",
+				"name": "Refusal Logic — Structural Governance"
+			  },
+			  "identifier": [
+				{"@type": "PropertyValue","propertyID": "DOI","value": "10.5281/zenodo.16880175"},
+				{"@type": "URL","value": "https://github.com/russell-parrott/refusal_logic"}
+			  ],
+			  "author": {
+				"@type": "Person",
+				"name": "Russell Parrott"
+			  },
+			  "publisher": {
+				"@type": "Organization",
+				"name": "Refusal Logic Project"
+			  },
+			  "mainEntity": {
+				"@type": "ItemList",
+				"name": "The 15 Structural Questions",
+				"itemListOrder": "http://schema.org/ItemListOrderAscending",
+				"numberOfItems": 15,
+				"itemListElement": [
+				  {"@type":"ListItem","position":1,"name":"Q1 — Access Control"},
+				  {"@type":"ListItem","position":2,"name":"Q2 — Decision Visibility"},
+				  {"@type":"ListItem","position":3,"name":"Q3 — Refusal Capability"},
+				  {"@type":"ListItem","position":4,"name":"Q4 — Penalty Protection"},
+				  {"@type":"ListItem","position":5,"name":"Q5 — Escalation Path"},
+				  {"@type":"ListItem","position":6,"name":"Q6 — Escalation Integrity"},
+				  {"@type":"ListItem","position":7,"name":"Q7 — Exit Mechanism"},
+				  {"@type":"ListItem","position":8,"name":"Q8 — Exit Portability"},
+				  {"@type":"ListItem","position":9,"name":"Q9 — Breach Detection"},
+				  {"@type":"ListItem","position":10,"name":"Q10 — Breach Logging"},
+				  {"@type":"ListItem","position":11,"name":"Q11 — Audit Survivability"},
+				  {"@type":"ListItem","position":12,"name":"Q12 — Independent Verification"},
+				  {"@type":"ListItem","position":13,"name":"Q13 — Countermeasure Testing"},
+				  {"@type":"ListItem","position":14,"name":"Q14 — Safeguard Maintenance"},
+				  {"@type":"ListItem","position":15,"name":"Q15 — Transparency of Change"}
+				]
+			  }
+			}
+		</script>
+
+		<script type="application/ld+json">
+			{
+			  "@context":"https://schema.org",
+			  "@type":"DataCatalog",
+			  "name":"Refusal Logic Evidence Schemas",
+			  "url":"https://github.com/russell-parrott/refusal_logic/tree/main/spec",
+			  "creator":{"@type":"Person","name":"Russell Parrott"},
+			  "dataset":[
+				{
+				  "@type":"Dataset",
+				  "name":"Full Structural Evidence Schema (all 15 conditions)",
+				  "description":"Canonical JSON Schema for evidence objects covering all structural conditions.",
+				  "license":"https://creativecommons.org/licenses/by-nd/4.0/",
+				  "identifier":"https://doi.org/10.5281/zenodo.16880175",
+				  "distribution":[
+					{
+					  "@type":"DataDownload",
+					  "encodingFormat":"application/json",
+					  "contentUrl":"https://raw.githubusercontent.com/russell-parrott/refusal_logic/main/spec/full-structural.schema.json"
+					},
+					{
+					  "@type":"DataDownload",
+					  "encodingFormat":"text/markdown",
+					  "contentUrl":"https://raw.githubusercontent.com/russell-parrott/refusal_logic/main/spec/export-format.md"
+					}
+				  ]
+				},
+				{
+				  "@type":"Dataset",
+				  "name":"Refusal Event Schema (stop/redirect safeguard)",
+				  "description":"JSON Schema for recording refusal events linked to decisions.",
+				  "license":"https://creativecommons.org/licenses/by-nd/4.0/",
+				  "identifier":"https://doi.org/10.5281/zenodo.16880175",
+				  "distribution":[
+					{
+					  "@type":"DataDownload",
+					  "encodingFormat":"application/json",
+					  "contentUrl":"https://raw.githubusercontent.com/russell-parrott/refusal_logic/main/spec/refusal-event.schema.json"
+					}
+				  ]
+				}
+			  ]
+			}
+		</script>
+
+		<script type="application/ld+json">
+			{
+			  "@context":"https://schema.org",
+			  "@type":"SoftwareSourceCode",
+			  "name":"Refusal Logic — Structural Governance",
+			  "codeRepository":"https://github.com/russell-parrott/refusal_logic",
+			  "programmingLanguage":"JSON, Markdown, HTML",
+			  "license":"https://creativecommons.org/licenses/by-nd/4.0/",
+			  "author":{"@type":"Person","name":"Russell Parrott"},
+			  "dateCreated":"2025-08-15",
+			  "dateModified":"2025-08-15",
+			  "version":"v1.0.0",
+			  "identifier":"https://doi.org/10.5281/zenodo.16880175",
+			  "keywords":["AI governance","trust","compliance","refusal logic","structural tests","audit"]
+			}
+		</script>
+
+	</head>
+	<body>
+		<main class="deck" aria-label="Structural Questions Carousel">
+			<header>
+				<div class="brand">Refusal Logic - Structural Governance</div>
+				<div class="doi"><img src="https://zenodo.org/badge/1038390482.svg" /></div>
+			</header>
+
+			<!-- Slides -->
+			<section class="slide active" aria-label="Cover">
+				<h1>Trust in AI is Structural, Not Sentiment</h1>
+				<h2>The 15 Structural Questions - a standards-ready checklist for trustworthy systems</h2>
+				<ul>
+					<li>Formal, testable and enforceable across jurisdictions.</li>
+					<li>Aligned with the Refusal Logic discipline (full governance framework).</li>
+					<li>Use arrow keys <span class="kbd">←</span><span class="kbd">→</span> or buttons below.</li>
+				</ul>
+				<div class="cta">Author: <strong>Russell Parrott</strong> - <em>Refusal Logic (v1.0.0)</em></div>
+			</section>
+
+			<!-- 1 -->
+			<section class="slide" aria-label="Q1 Access Control">
+				<h1>Q1 - Access Control</h1>
+				<h2>Objective: Verify authorised users can access without arbitrary restriction.</h2>
+				<ul>
+					<li>Procedure: Attempt access with valid credentials across roles/regions; measure latency and denial reasons.</li>
+					<li>Pass: No unjustified denials; latency within SLA. </li>
+					<li>Evidence: Access logs with user/role, timestamps, region, outcome, SLA metrics. </li>
+				</ul>
+			</section>
+
+			<!-- 2 -->
+			<section class="slide" aria-label="Q2 Decision Visibility">
+				<h1>Q2 - Decision Visibility</h1>
+				<h2>Objective: Confirm visibility of a pending decision before it binds.</h2>
+				<ul>
+					<li>Procedure: Initiate a decision; inspect UI/API to view pending decision state and rationale.</li>
+					<li>Pass: Pending decision and rationale visible pre-enforcement.</li>
+					<li>Evidence: Screens/API responses with decision ID, stage, rationale snapshot.</li>
+				</ul>
+			</section>
+
+			<!-- 3 -->
+			<section class="slide" aria-label="Q3 Refusal Capability">
+				<h1>Q3 - Refusal Capability</h1>
+				<h2>Objective: Confirm a user can stop/redirect pre-enforcement.</h2>
+				<ul>
+					<li>Procedure: Trigger refusal during pending state.</li>
+					<li>Pass: Decision halts or routes to alternative path.</li>
+					<li>Evidence: Refusal event log linked to decision ID pathway after recorded.</li>
+				</ul>
+			</section>
+
+			<!-- 4 -->
+			<section class="slide" aria-label="Q4 Penalty Protection">
+				<h1>Q4 - Penalty Protection</h1>
+				<h2>Objective: Ensure refusal does not degrade service.</h2>
+				<ul>
+					<li>Procedure: Compare timelines/outcomes for refused vs non-refused matched cases.</li>
+					<li>Pass: No added delay, quality drop, or access loss.</li>
+					<li>Evidence: Matched-case report; <code>penalty_flag=false</code> for all refusal events.</li>
+				</ul>
+			</section>
+
+			<!-- 5 -->
+			<section class="slide" aria-label="Q5 Escalation Path">
+				<h1>Q5 - Escalation Path</h1>
+				<h2>Objective: Verify an accessible route to a human decision-maker.</h2>
+				<ul>
+					<li>Procedure: Submit escalation request from standard user context.</li>
+					<li>Pass: Escalation request accepted; human reviewer assigned within SLA.</li>
+					<li>Evidence: Escalation ticket with timestamps, reviewer ID, SLA compliance.</li>
+				</ul>
+			</section>
+
+			<!-- 6 -->
+			<section class="slide" aria-label="Q6 Escalation Integrity">
+				<h1>Q6 - Escalation Integrity</h1>
+				<h2>Objective: Ensure original context/evidence are preserved.</h2>
+				<ul>
+					<li>Procedure: Compare pre- and post-escalation records.</li>
+					<li>Pass: No loss/alteration of inputs, logs, or rationale.</li>
+					<li>Evidence: Immutable hash/IDs of inputs, audit trail continuity across stages.</li>
+				</ul>
+			</section>
+
+			<!-- 7 -->
+			<section class="slide" aria-label="Q7 Exit Mechanism">
+				<h1>Q7 - Exit Mechanism</h1>
+				<h2>Objective: Verify user can disengage without undue friction or rights loss.</h2>
+				<ul>
+					<li>Procedure: Execute exit; verify service termination/transition.</li>
+					<li>Pass: Exit completes within SLA; core rights/services preserved per policy.</li>
+					<li>Evidence: Exit request + completion timestamps; confirmation of rights/status.</li>
+				</ul>
+			</section>
+
+			<!-- 8 -->
+			<section class="slide" aria-label="Q8 Exit Portability">
+				<h1>Q8 - Exit Portability</h1>
+				<h2>Objective: Confirm data/history portability on exit.</h2>
+				<ul>
+					<li>Procedure: Request data export during exit.</li>
+					<li>Pass: Export delivered in open format covering required fields/period.</li>
+					<li>Evidence: Delivered files (CSV/JSON/PDF/A) + checksums; field coverage report.</li>
+				</ul>
+			</section>
+
+			<!-- 9 -->
+			<section class="slide" aria-label="Q9 Breach Detection">
+				<h1>Q9 - Breach Detection</h1>
+				<h2>Objective: Validate live detection of structural breaches.</h2>
+				<ul>
+					<li>Procedure: Induce a known breach (e.g., blocked refusal); monitor alerts.</li>
+					<li>Pass: System flags breach automatically within detection SLA</li>
+					<li>Evidence: Alert logs with breach code, detection timestamp, remediation ticket.</li>
+				</ul>
+			</section>
+
+			<!-- 10 -->
+			<section class="slide" aria-label="Q10 Breach Logging">
+				<h1>Q10 - Breach Logging</h1>
+				<h2>Objective: Ensure tamper-resistant breach logging.</h2>
+				<ul>
+					<li>Procedure: Review append-only/hashed log mechanism.</li>
+					<li>Pass: Logs are append-only; integrity verifiable.</li>
+					<li>Evidence: Log integrity proofs (hash chain/attestations) and retrieval trace.</li>
+				</ul>
+			</section>
+
+			<!-- 11 -->
+			<section class="slide" aria-label="Q11 Audit Survivability">
+				<h1>Q11 - Audit Survivability</h1>
+				<h2>Objective: Confirm evidence survives jurisdiction/ownership change.</h2>
+				<ul>
+					<li>Procedure: Move a sample evidence set to secondary jurisdiction/store; re-verify.</li>
+					<li>Pass: Evidence remains complete, verifiable, and accessible.</li>
+					<li>Evidence: Mirror location URIs, access proofs, integrity checksums pre/post.</li>
+				</ul>
+			</section>
+
+			<!-- 12 -->
+			<section class="slide" aria-label="Q12 Independent Verification">
+				<h1>Q12 - Independent Verification</h1>
+				<h2>Objective: Enable third-party verification without vendor mediation.</h2>
+				<ul>
+					<li>Procedure: Auditor retrieves evidence using documented interfaces.</li>
+					<li>Pass: Auditor obtains all required records with standard credentials/keys.</li>
+					<li>Evidence: Auditor access logs, retrieved artifacts, verification report.</li>
+				</ul>
+			</section>
+
+			<!-- 13 -->
+			<section class="slide" aria-label="Q13 Countermeasure Testing">
+				<h1>Q13 - Countermeasure Testing</h1>
+				<h2>Objective: Prove safeguards change outcomes when exercised.</h2>
+				<ul>
+					<li>Procedure: Run A/B cases with and without each safeguard active.</li>
+					<li>Pass: Materially different outcomes when safeguards are used.</li>
+					<li>Evidence: Test matrix mapping safeguards → outcome deltas with stats.</li>
+				</ul>
+			</section>
+
+			<!-- 14 -->
+			<section class="slide" aria-label="Q14 Safeguard Maintenance">
+				<h1>Q14 - Safeguard Maintenance</h1>
+				<h2>Objective: Ensure safeguards remain effective over time/updates.</h2>
+				<ul>
+					<li>Procedure: Review change management; run regression tests post-release.</li>
+					<li>Pass: No degradation in tests 1–13 after updates; failures auto-rollback or fix within SLA.</li>
+					<li>Evidence: Release notes, CI/CD test logs, regression results.</li>
+				</ul>
+			</section>
+
+			<!-- 15 -->
+			<section class="slide" aria-label="Q15 Transparency of Change">
+				<h1>Q15 - Transparency of Change</h1>
+				<h2>Objective: Confirm advance disclosure of changes to trust conditions.</h2>
+				<ul>
+					<li>Procedure: Inspect change notices, lead times, and user comms.</li>
+					<li>Pass: Changes disclosed before effect; users informed and records kept.</li>
+					<li>Evidence: Public/tenant notices with timestamps, diff summaries, ack logs.</li>
+				</ul>
+			</section>
+
+			<!-- CTA -->
+			<section class="slide" aria-label="CTA">
+				<h1>Use the Standard</h1>
+				<h2>Implement the 15 Questions with Refusal Logic discipline</h2>
+				<ul>
+					<li>Repo: <a href="#" id="repoLink">https://github.com/russell-parrott/refusal_logic</a></li>
+					<li>Specs & Tests inside: <code>/spec</code>, <code>/tests</code>, <code>/doctrine</code>.</li>
+					<li>Cite via DOI for permanence.</li>
+				</ul>
+				<div class="cta">Contact: parrott.russell@gmail.com</div>
+			</section>
+
+			<footer class="nav" aria-label="Carousel controls">
+				<button class="btn" id="prev" aria-label="Previous slide">◀ Prev</button>
+				<div class="index"><span id="pos">1</span> / <span id="total">17</span></div>
+				<div class="dots" id="dots" aria-hidden="true"></div>
+				<button class="btn" id="next" aria-label="Next slide">Next ▶</button>
+			</footer>
+		</main>
+
+		<script>
+			(function(){
+			  const slides=[...document.querySelectorAll('.slide')];
+			  const total=slides.length;
+			  const posEl=document.getElementById('pos');
+			  const totalEl=document.getElementById('total');
+			  const prev=document.getElementById('prev');
+			  const next=document.getElementById('next');
+			  const dotsWrap=document.getElementById('dots');
+			  totalEl.textContent=total;
+
+			  // Build dots
+			  slides.forEach((_,i)=>{
+				const d=document.createElement('div');
+				d.className='dot';
+				d.addEventListener('click',()=>go(i));
+				dotsWrap.appendChild(d);
+			  });
+
+			  let idx=0;
+			  const fromHash=()=> {
+				const m=location.hash.match(/#s(\d+)/);
+				if(m){ const n=+m[1]; if(n>=1 && n<=total) idx=n-1; }
+			  };
+			  const update=()=>{
+				slides.forEach((s,i)=>s.classList.toggle('active', i===idx));
+				[...dotsWrap.children].forEach((d,i)=>d.classList.toggle('active', i===idx));
+				posEl.textContent=idx+1;
+				prev.disabled=idx===0; next.disabled=idx===total-1;
+				location.hash = '#s'+(idx+1);
+			  };
+			  const go=(i)=>{ idx=Math.max(0,Math.min(total-1,i)); update(); };
+			  prev.addEventListener('click',()=>go(idx-1));
+			  next.addEventListener('click',()=>go(idx+1));
+			  document.addEventListener('keydown',e=>{
+				if(e.key==='ArrowRight') go(idx+1);
+				if(e.key==='ArrowLeft')  go(idx-1);
+			  });
+
+			  // Basic swipe
+			  let sx=0; let sy=0;
+			  window.addEventListener('touchstart',e=>{sx=e.touches[0].clientX; sy=e.touches[0].clientY;},{passive:true});
+			  window.addEventListener('touchend',e=>{
+				const dx=(e.changedTouches[0].clientX - sx);
+				const dy=(e.changedTouches[0].clientY - sy);
+				if(Math.abs(dx)>40 && Math.abs(dy)<60){ if(dx<0) go(idx+1); else go(idx-1); }
+			  },{passive:true});
+
+			  fromHash(); update();
+			})();
+		</script>
+	</body>
+</html>
