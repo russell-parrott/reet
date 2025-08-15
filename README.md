@@ -1,13 +1,14 @@
 [![DOI](https://zenodo.org/badge/1038390482.svg)](https://doi.org/10.5281/zenodo.16880174)
 
-# Refusal Logic
+## Structural Governance Standard for AI
 
-Refusal Logic is a complete structural governance discipline for AI oversight.  
+This repository is the authoritative public record of the Structural Governance Standard for AI — a complete, testable oversight system built on the Q1–Q15 verification set (procedures, pass/fail criteria, and evidence formats).
+
 It defines, tests, and enforces the conditions under which trust in AI systems can be established, preserved, and proven over time.
 
-## Scope
+##  Structural Governance Standard for AI
 
-Refusal Logic covers the full framework required to make AI governance enforceable in operation.  
+Structural Governance Standard for AI covers the full framework required to make AI governance enforceable in operation.  
 This includes:
 
 - **The 15 Structural Questions** — a universal trust interrogation framework applicable across jurisdictions and sectors.
@@ -27,12 +28,12 @@ This includes:
 
 ## Design Principles
 
-Refusal Logic is based on the principle that trust in AI cannot be declared — it must be a system condition that is designed, tested, and proven in operation.  
+Structural Governance Standard for A is based on the principle that trust in AI cannot be declared — it must be a system condition that is designed, tested, and proven in operation.  
 Each safeguard is mapped to a structural question, verified through an operational test, and anchored to an audit trail capable of withstanding cross-jurisdictional challenges.
 
 ## Provenance
 
-Refusal Logic was originated and published by **Russell Parrott** in 2025.  
+Structural Governance Standard for A was originated and published by **Russell Parrott** in 2025.  
 This repository constitutes the authoritative public record of the doctrine, including its definitions, test methods, and canonical schemas.
 
 DOI: [![DOI](https://zenodo.org/badge/1038390482.svg)](https://doi.org/10.5281/zenodo.16880174)
