@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/1038390482.svg)](https://doi.org/10.5281/zenodo.16880174)
 
-## Structural Governance Standard for AI
+# Structural Governance Standard for AI
 
 This repository is the authoritative public record of the Structural Governance Standard for AI — a complete, testable oversight system built on the Q1–Q15 verification set (procedures, pass/fail criteria, and evidence formats).
 
@@ -8,7 +8,7 @@ It defines, tests, and enforces the conditions under which trust in AI systems c
 
 ##  Structural Governance Standard for AI
 
-Structural Governance Standard for AI covers the full framework required to make AI governance enforceable in operation.  
+The Structural Governance Standard for AI covers the full framework required to make AI governance enforceable in operation.  
 This includes:
 
 - **The 15 Structural Questions** — a universal trust interrogation framework applicable across jurisdictions and sectors.
