@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Refusal Event",
+  "description": "Canonical schema for recording a refusal event in an AI decision pathway.",
+  "type": "object",
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "description": "Globally unique identifier for the refusal event."
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "UTC timestamp when the refusal was triggered."
+    },
+    "decision_id": {
+      "type": "string",
+      "description": "Identifier linking this refusal to the original AI decision pathway."
+    },
+    "triggered_by": {
+      "type": "string",
+      "description": "User or process ID that triggered the refusal."
+    },
+    "jurisdiction": {
+      "type": "string",
+      "description": "Jurisdiction code relevant to the decision (e.g., ISO 3166-1 alpha-2)."
+    },
+    "pathway_before": {
+      "type": "string",
+      "description": "Description or code of the decision pathway before refusal."
+    },
+    "pathway_after": {
+      "type": "string",
+      "description": "Description or code of the alternative pathway taken after refusal."
+    },
+    "penalty_flag": {
+      "type": "boolean",
+      "description": "True if refusal resulted in a disadvantage; should always be false if compliant."
+    },
+    "reviewer_id": {
+      "type": "string",
+      "description": "ID of reviewer or oversight entity verifying the refusal."
+    },
+    "outcome": {
+      "type": "string",
+      "description": "Final result after refusal pathway was completed."
+    }
+  },
+  "required": [
+    "event_id",
+    "timestamp",
+    "decision_id",
+    "triggered_by",
+    "jurisdiction",
+    "pathway_before",
+    "pathway_after",
+    "penalty_flag",
+    "outcome"
+  ]
+}
