@@ -19,7 +19,6 @@ This includes:
 - **The 15 Structural Questions** — a universal trust interrogation framework applicable across jurisdictions and sectors.
 - **Operational Countermeasures** — safeguards that make affirmative answers enforceable in live systems, including but not limited to the stop/redirect mechanism.
 - **Structural Tests** — pass/fail verifications linked to each structural question to prove compliance.
-- **Audit Architecture** — event formats and schemas designed to ensure evidence chains survive jurisdictional differences and organisational boundaries.
 
 ## Components
 
