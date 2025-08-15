@@ -1,0 +1,331 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/spec/full-structural.schema.json",
+  "title": "Refusal Logic — Full Structural Evidence Schema",
+  "description": "Canonical schema covering evidence objects required to verify compliance with the Refusal Logic discipline (all 15 structural conditions).",
+  "type": "object",
+  "required": ["metadata"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "description": "Bundle-level metadata for traceability and review.",
+      "required": ["system_id", "bundle_id", "generated_at", "jurisdiction"],
+      "properties": {
+        "system_id": { "type": "string", "description": "Identifier of the evaluated system/service." },
+        "bundle_id": { "type": "string", "description": "Unique ID for this evidence bundle/export." },
+        "generated_at": { "type": "string", "format": "date-time", "description": "UTC timestamp when this bundle was generated." },
+        "jurisdiction": { "type": "string", "description": "Primary jurisdiction code (ISO 3166-1 alpha-2 or region code)." },
+        "version": { "type": "string", "description": "System version / model version at time of capture." },
+        "notes": { "type": "string" }
+      }
+    },
+
+    "access_events": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/AccessEvent" },
+      "description": "Evidence for Q1 (Access Control)."
+    },
+
+    "decision_visibility_events": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/DecisionVisibilityEvent" },
+      "description": "Evidence for Q2 (Decision Visibility)."
+    },
+
+    "refusal_events": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/RefusalEvent" },
+      "description": "Evidence for Q3–Q4 (Refusal Capability & Penalty Protection)."
+    },
+
+    "escalation_events": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/EscalationEvent" },
+      "description": "Evidence for Q5–Q6 (Escalation Path & Integrity)."
+    },
+
+    "exit_events": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/ExitEvent" },
+      "description": "Evidence for Q7 (Exit Mechanism)."
+    },
+
+    "data_portability_exports": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/DataPortabilityExport" },
+      "description": "Evidence for Q8 (Exit Portability)."
+    },
+
+    "breach_detection_events": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/BreachDetectionEvent" },
+      "description": "Evidence for Q9 (Breach Detection)."
+    },
+
+    "breach_log_records": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/BreachLogRecord" },
+      "description": "Evidence for Q10 (Breach Logging — append-only/integrity)."
+    },
+
+    "audit_mirror_events": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/AuditMirrorEvent" },
+      "description": "Evidence for Q11 (Audit Survivability)."
+    },
+
+    "independent_verification_events": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/IndependentVerificationEvent" },
+      "description": "Evidence for Q12 (Independent Verification)."
+    },
+
+    "countermeasure_tests": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/CountermeasureTest" },
+      "description": "Evidence for Q13 (Countermeasure Testing)."
+    },
+
+    "safeguard_maintenance_records": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/SafeguardMaintenanceRecord" },
+      "description": "Evidence for Q14 (Safeguard Maintenance)."
+    },
+
+    "change_notices": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/ChangeNotice" },
+      "description": "Evidence for Q15 (Transparency of Change)."
+    }
+  },
+
+  "$defs": {
+    "CommonIds": {
+      "type": "object",
+      "properties": {
+        "event_id": { "type": "string", "description": "Unique ID for this event/record." },
+        "decision_id": { "type": "string", "description": "ID of the decision flow this evidence pertains to." },
+        "user_id": { "type": "string", "description": "Pseudonymised user or subject ID." },
+        "jurisdiction": { "type": "string", "description": "Jurisdiction relevant to this record (ISO code/region)." },
+        "timestamp": { "type": "string", "format": "date-time", "description": "UTC timestamp of the event." }
+      },
+      "required": ["event_id", "timestamp"]
+    },
+
+    "AccessEvent": {
+      "allOf": [
+        { "$ref": "#/$defs/CommonIds" },
+        {
+          "type": "object",
+          "required": ["access_result", "latency_ms"],
+          "properties": {
+            "role": { "type": "string", "description": "Role attempting access (e.g., student, applicant, auditor)." },
+            "region": { "type": "string", "description": "Region of access attempt." },
+            "access_result": { "type": "string", "enum": ["granted", "denied"], "description": "Outcome." },
+            "denial_reason": { "type": "string" },
+            "latency_ms": { "type": "number" },
+            "sla_target_ms": { "type": "number" }
+          }
+        }
+      ]
+    },
+
+    "DecisionVisibilityEvent": {
+      "allOf": [
+        { "$ref": "#/$defs/CommonIds" },
+        {
+          "type": "object",
+          "required": ["visible_pre_enforcement", "rationale_snapshot_available"],
+          "properties": {
+            "stage": { "type": "string", "description": "Decision stage label (e.g., pending, review, final)." },
+            "visible_pre_enforcement": { "type": "boolean" },
+            "rationale_snapshot_available": { "type": "boolean" },
+            "preview_endpoint": { "type": "string", "description": "UI/API path used to view the pending decision." }
+          }
+        }
+      ]
+    },
+
+    "RefusalEvent": {
+      "description": "Specific evidence for refusal capability & penalty protection.",
+      "allOf": [
+        { "$ref": "#/$defs/CommonIds" },
+        {
+          "type": "object",
+          "required": ["pathway_before", "pathway_after", "pre_enforcement", "penalty_flag", "outcome"],
+          "properties": {
+            "triggered_by": { "type": "string", "description": "Who/what triggered refusal (user/process ID)." },
+            "pathway_before": { "type": "string", "description": "Decision path before refusal." },
+            "pathway_after": { "type": "string", "description": "Alternative path after refusal." },
+            "pre_enforcement": { "type": "boolean", "description": "True if refusal occurred before the decision bound." },
+            "penalty_flag": { "type": "boolean", "description": "True if refusal led to delay/quality loss/access loss." },
+            "equivalence_check_id": { "type": "string", "description": "Link to matched-case analysis proving equivalence." },
+            "outcome": { "type": "string" }
+          }
+        }
+      ]
+    },
+
+    "EscalationEvent": {
+      "allOf": [
+        { "$ref": "#/$defs/CommonIds" },
+        {
+          "type": "object",
+          "required": ["escalation_opened_at", "reviewer_id", "resolved_at", "reversal_possible"],
+          "properties": {
+            "escalation_opened_at": { "type": "string", "format": "date-time" },
+            "reviewer_id": { "type": "string" },
+            "resolved_at": { "type": "string", "format": "date-time" },
+            "reversal_possible": { "type": "boolean" },
+            "context_hash": { "type": "string", "description": "Hash proving original inputs/rationale preserved." },
+            "result": { "type": "string" }
+          }
+        }
+      ]
+    },
+
+    "ExitEvent": {
+      "allOf": [
+        { "$ref": "#/$defs/CommonIds" },
+        {
+          "type": "object",
+          "required": ["exit_requested_at", "exit_completed_at", "rights_preserved"],
+          "properties": {
+            "exit_requested_at": { "type": "string", "format": "date-time" },
+            "exit_completed_at": { "type": "string", "format": "date-time" },
+            "rights_preserved": { "type": "boolean", "description": "Core rights/services maintained post-exit." }
+          }
+        }
+      ]
+    },
+
+    "DataPortabilityExport": {
+      "allOf": [
+        { "$ref": "#/$defs/CommonIds" },
+        {
+          "type": "object",
+          "required": ["export_format", "fields_covered", "delivered_at", "checksum"],
+          "properties": {
+            "export_format": { "type": "string", "enum": ["JSON", "CSV", "PDF/A", "Other"] },
+            "fields_covered": { "type": "array", "items": { "type": "string" } },
+            "delivered_at": { "type": "string", "format": "date-time" },
+            "checksum": { "type": "string" },
+            "delivery_channel": { "type": "string" }
+          }
+        }
+      ]
+    },
+
+    "BreachDetectionEvent": {
+      "allOf": [
+        { "$ref": "#/$defs/CommonIds" },
+        {
+          "type": "object",
+          "required": ["breach_code", "detected_at", "detection_latency_ms"],
+          "properties": {
+            "breach_code": { "type": "string", "description": "Controlled vocabulary of breach types." },
+            "detected_at": { "type": "string", "format": "date-time" },
+            "detection_latency_ms": { "type": "number" },
+            "remediation_ticket_id": { "type": "string" }
+          }
+        }
+      ]
+    },
+
+    "BreachLogRecord": {
+      "allOf": [
+        { "$ref": "#/$defs/CommonIds" },
+        {
+          "type": "object",
+          "required": ["breach_code", "append_only", "integrity_proof"],
+          "properties": {
+            "breach_code": { "type": "string" },
+            "append_only": { "type": "boolean" },
+            "integrity_proof": { "type": "string", "description": "Hash/attestation proving no tampering." }
+          }
+        }
+      ]
+    },
+
+    "AuditMirrorEvent": {
+      "allOf": [
+        { "$ref": "#/$defs/CommonIds" },
+        {
+          "type": "object",
+          "required": ["mirror_location", "mirrored_at", "integrity_verified"],
+          "properties": {
+            "mirror_location": { "type": "string", "description": "Jurisdiction/storage of the mirror." },
+            "mirrored_at": { "type": "string", "format": "date-time" },
+            "integrity_verified": { "type": "boolean" },
+            "verification_proof": { "type": "string" }
+          }
+        }
+      ]
+    },
+
+    "IndependentVerificationEvent": {
+      "allOf": [
+        { "$ref": "#/$defs/CommonIds" },
+        {
+          "type": "object",
+          "required": ["auditor_id", "interface_used", "scope", "result"],
+          "properties": {
+            "auditor_id": { "type": "string" },
+            "interface_used": { "type": "string", "description": "API/UI/export mechanism used by auditor." },
+            "scope": { "type": "string", "description": "What was verified (datasets, logs, flows)." },
+            "result": { "type": "string", "enum": ["verified", "partial", "failed"] }
+          }
+        }
+      ]
+    },
+
+    "CountermeasureTest": {
+      "allOf": [
+        { "$ref": "#/$defs/CommonIds" },
+        {
+          "type": "object",
+          "required": ["safeguard_name", "test_design", "outcome_delta_observed"],
+          "properties": {
+            "safeguard_name": { "type": "string", "description": "Name of the safeguard under test." },
+            "test_design": { "type": "string", "description": "A/B, matched pairs, etc." },
+            "outcome_delta_observed": { "type": "boolean", "description": "True if safeguard changed outcomes materially." },
+            "stats_summary": { "type": "string" }
+          }
+        }
+      ]
+    },
+
+    "SafeguardMaintenanceRecord": {
+      "allOf": [
+        { "$ref": "#/$defs/CommonIds" },
+        {
+          "type": "object",
+          "required": ["release_id", "regression_suite_passed", "fallback_invoked"],
+          "properties": {
+            "release_id": { "type": "string" },
+            "regression_suite_passed": { "type": "boolean" },
+            "fallback_invoked": { "type": "boolean" },
+            "rollback_at": { "type": "string", "format": "date-time" }
+          }
+        }
+      ]
+    },
+
+    "ChangeNotice": {
+      "allOf": [
+        { "$ref": "#/$defs/CommonIds" },
+        {
+          "type": "object",
+          "required": ["change_id", "announced_at", "effective_at", "diff_summary"],
+          "properties": {
+            "change_id": { "type": "string" },
+            "announced_at": { "type": "string", "format": "date-time" },
+            "effective_at": { "type": "string", "format": "date-time" },
+            "diff_summary": { "type": "string" },
+            "notification_channels": { "type": "array", "items": { "type": "string" } }
+          }
+        }
+      ]
+    }
+  }
+}
