@@ -29,7 +29,7 @@ This includes:
 | `/tests/` | Structural test definitions linked to each question and safeguard. |
 | `/spec/` | Canonical data schemas and export formats for refusal events, audit logs, and structural compliance reporting. |
 | `/policy/` | Cross-jurisdiction governance notes and evidence chain considerations. |
-| `/history/` | Publication record and provenance documentation. |
+| `./` | Publication record and provenance documentation. |
 
 ## Design Principles
 
