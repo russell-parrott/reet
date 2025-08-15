@@ -6,7 +6,7 @@ authors:
     given-names: "Russell"
 date-released: 2025-08-18
 version: "1.0.0"
-doi: "10.5281/zenodo.16880175"
+doi: "10.5281/zenodo.16881638"
 license: "CC-BY-ND-4.0"
 repository-code: "https://github.com/russell-parrott/refusal_logic"
 abstract: "Structural Governance Standard for AI is a structural safeguard for AI systems, ensuring any decision can be stopped, altered, or redirected before it causes harm or becomes binding—without penalty to the user—while preserving an alternative pathway, creating an auditable record, and enabling cross-jurisdictional oversight."
