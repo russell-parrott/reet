@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1038390482.svg)](https://doi.org/10.5281/zenodo.16880174)
+
 # Refusal Logic — Formal Definition  
 *First formally defined in* *Trust in Systems* *(Russell Parrott, 2025)*  
 
