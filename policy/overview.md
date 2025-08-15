@@ -22,7 +22,3 @@ Structural Governance Standard for AI directly supports policy objectives in:
 ## Cross-Jurisdictional Applicability
 Structural Governance Standard for AI’s audit trail format is designed to remain valid across legal and regulatory regimes.  
 This enables consistent enforcement in multinational contexts, even where AI governance laws differ.
-
----
-
-**Reference:** See `/spec/refusal-event.schema.json` for the canonical data structure.
