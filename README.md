@@ -14,7 +14,6 @@ The Standard defines and sets the conditions under which trust in AI systems can
 
 | Directory | Description |
 |-----------|-------------|
-| `/doctrine/` | Foundational documents, including the 15 Structural Questions and the full set of operational countermeasures. |
 | `/tests/` | Structural test definitions linked to each question and safeguard. |
 | `/policy/` | Cross-jurisdiction governance notes and evidence chain considerations. |
 | `./` | Publication record and provenance documentation. |
