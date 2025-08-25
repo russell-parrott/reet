@@ -123,8 +123,9 @@ How to test:
 - Observe whether these metrics reflect real harm resolution (e.g. “problems solved”).
 - If metrics disguise or hide harm, mark fail.
 
- # Category 4 - Accountability & Jurisdiction Evasion
- ## 12. Cross-Accountability Gap
+# Category 4 - Accountability & Jurisdiction Evasion
+
+## 12. Cross-Accountability Gap
 Standard:  Accountability must follow harm across the chain.  If every actor points elsewhere: the platform blames the vendor, the vendor blames the regulator, the regulator blames the law, harm becomes visible but no one takes responsibility.  A system is in breach if it leaves users caught in this loop.  Responsibility must remain clear, shared, and enforceable.
 
 Question:  Can every actor in the chain be named and held contractually responsible for repairing harm?
