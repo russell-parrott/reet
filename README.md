@@ -10,13 +10,10 @@ The Standard establishes AI governance as a discipline in its own right. Complia
 
 REET integrates:
 
-a universal taxonomy of structural breaches,
-
-operational countermeasures to prevent recurrence,
-
-methods of verification that withstand independent audit, and
-
-safeguards designed to adapt under changing conditions.
+- A universal taxonomy of structural breaches,
+- Operational countermeasures to prevent recurrence,
+- Methods of verification that withstand independent audit, and
+- Safeguards designed to adapt under changing conditions.
 
 Through these elements, REET sets the enforceable conditions under which trust in AI systems can be established, preserved, and demonstrably proven.
 
