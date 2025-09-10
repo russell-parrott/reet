@@ -2,15 +2,23 @@
 
 # REET - the Structural Governance Standard for AI
 
-This repository is the authoritative public record of REET — the Structural Governance Standard for AI.
+This repository is the authoritative public record of REET, the Structural Governance Standard for AI.
 
-REET is a complete, verifiable oversight framework built on the Q1–Q15 verification set. It includes structural questions, pass/fail criteria, and evidence requirements.
+REET is a complete and verifiable oversight framework. It is defined through fifteen structural tests (Q1–Q15), each with specific questions, pass/fail criteria, and evidence formats. Together, these tests provide a binary outcome: either the safeguards hold, or accountability fails.
 
-The Standard defines AI governance as a discipline in its own right. Compliance is treated not as a declaration of intent but as a system condition that can be independently verified in operation.
+The Standard establishes AI governance as a discipline in its own right. Compliance is not treated as a statement of policy or intent but as a structural condition engineered into the system and independently verifiable in operation.
 
-It establishes a universal breach taxonomy, operational countermeasures, structural verification methods, and dynamic safeguards to ensure that governance remains enforceable over time.
+REET integrates:
 
-The Standard sets the conditions under which trust in AI systems can be established, preserved, and proven.
+a universal taxonomy of structural breaches,
+
+operational countermeasures to prevent recurrence,
+
+methods of verification that withstand independent audit, and
+
+safeguards designed to adapt under changing conditions.
+
+Through these elements, REET sets the enforceable conditions under which trust in AI systems can be established, preserved, and demonstrably proven.
 
 ## Components
 
