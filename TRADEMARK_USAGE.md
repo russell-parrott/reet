@@ -21,9 +21,9 @@ You may implement REET in your systems, products, or policies if you preserve th
 ---
 
 ## Not Allowed
-- You may **not** alter, rebrand, or redefine *REET* or *The Structural Governance Standard for AI* and still call it by that name.  
-- You may **not** imply origin or authorship by anyone other than Russell Parrott.  
-- You may **not** create derivative definitions without changing the term.  
+- You may **not** alter, adapt, modify, or redefine *REET* or *The Structural Governance Standard for AI* in any way.  
+- You may **not** create derivative or variant definitions under the same or a similar name.  
+- You may **not** imply origin, authorship, or endorsement by anyone other than Russell Parrott.  
 
 ---
 
