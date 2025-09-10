@@ -23,6 +23,7 @@ Through these elements, REET sets the enforceable conditions under which trust i
 |-----------|-------------|
 | `/tests/` | Structural test definitions linked to each question and safeguard. |
 | `/policy/` | Cross-jurisdiction governance notes and evidence chain considerations. |
+| `./SPONSORSHIPmd` | Sponsorship arrangements and conditions for sustaining REET as a public standard. |
 | `./` | Publication record and provenance documentation. |
 
 ## Design Principles
