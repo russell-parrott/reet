@@ -14,7 +14,7 @@ It was first formally defined by Russell Parrott in *Trust in Systems* (2025) an
 ## Allowed Use
 You may use the term *REET: The Structural Governance Standard for AI* to describe, reference, or promote this safeguard if you include attribution:
 
-> Defined by Russell Parrott, 2025 — [https://github.com/russell-parrott/refusal_logic](https://github.com/russell-parrott/refusal_logic)
+> Defined by Russell Parrott, 2025 — [https://github.com/russell-parrott/reet](https://github.com/russell-parrott/reet)
 
 You may implement REET in your systems, products, or policies if you preserve the core definition and requirements **exactly as stated** in the current version of this repository.
 
