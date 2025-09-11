@@ -47,6 +47,14 @@ The purpose of REET is not to measure sentiment. It is to create evidence that r
 
 In every case, REET replaces promises with proof.
 
+## What REET is
+
+REET is a public standard of enforceable tests. It is designed to close the gap between what systems claim and what they actually do. It is free to use, copy, and enforce and will always remain open.
+
+## What REET is not
+
+REET is not a maturity model, a grey score, or a survey of opinions. If the safeguard holds, the system passes. If it does not, it fails. There is no in-between.
+
 ## Components
 
 | Directory | Description |
