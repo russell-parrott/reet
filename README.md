@@ -55,6 +55,17 @@ The purpose of REET is not to measure sentiment. It is to create evidence that r
 
 In every case, REET replaces promises with proof.
 
+## Quick Start
+
+1. Select the relevant stage (Sovereignty, Authority, or Integrity).  
+2. Open the corresponding test file in `/tests/`.  
+3. Compare the standard against the live system.  
+4. Record whether evidence is present and sufficient.  
+5. Mark PASS, FAIL, or MISSING PROOF.  
+
+Outputs can be published as a Test Card or attached directly to contracts and regulatory filings.
+
+
 ## What REET is
 
 REET is a public standard of enforceable tests. It is designed to close the gap between what systems claim and what they actually do. It is free to use, copy, and enforce and will always remain open.
@@ -86,9 +97,17 @@ This repository constitutes the authoritative public record of the doctrine, inc
 
 DOI: [![DOI](https://zenodo.org/badge/1038390482.svg)](https://doi.org/10.5281/zenodo.16880174)
 
+## Contributing
+
+This repository is an authoritative reference, not an open wiki.  
+- Issues may be opened to report errors, request clarification, or log adoption.  
+- Pull requests are not accepted for changes to the standard itself.  
+- Proposals for extensions or mappings can be raised in `/policy/` as separate notes.  
 
 ---
 
 **Author:** Russell Parrott — Author, *Structural Governance Standard for AI*  
 **License:** CC BY-ND 4.0 (Attribution required, no derivatives)  
 **Repository Description:** Safeguard to halt AI before harm.  
+![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)
+![Status: Reference Edition v1.0](https://img.shields.io/badge/Status-Reference%20Edition%20v1.0-blue.svg)
