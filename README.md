@@ -109,5 +109,6 @@ This repository is an authoritative reference, not an open wiki.
 **Author:** Russell Parrott — Author, *Structural Governance Standard for AI*  
 **License:** CC BY-ND 4.0 (Attribution required, no derivatives)  
 **Repository Description:** Safeguard to halt AI before harm.  
+
 ![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)
 ![Status: Reference Edition v1.0](https://img.shields.io/badge/Status-Reference%20Edition%20v1.0-blue.svg)
