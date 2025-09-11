@@ -61,7 +61,7 @@ In every case, REET replaces promises with proof.
 2. Open the corresponding test file in `/tests/`.  
 3. Compare the standard against the live system.  
 4. Record whether evidence is present and sufficient.  
-5. Mark PASS, FAIL, or MISSING PROOF.  
+5. Mark PASS or FAIL.  
 
 Outputs can be published as a Test Card or attached directly to contracts and regulatory filings.
 
