@@ -38,7 +38,8 @@ The outputs are simple, hard, and portable. They can be cited in enforcement, co
 
 ## The Stages of Accountability
 
-- **Sovereignty & Evidence**: This is the baseline: the minimum conditions of user power. A system must allow refusal without penalty, exit without harm and guarantee that every decision can be traced back to its source. It must also preserve memory so harm cannot be erased or disguised as isolated mistakes. These four rights: to refuse, to leave, to trace and to remember, define sovereignty. Without them nothing else matters.  [Download Sovereignty & Evidence from GitHub](https://raw.githubusercontent.com/russell-parrott/reet/main/inc/Sovereignty-Evidence.pdf)
+- **Sovereignty & Evidence**: This is the baseline: the minimum conditions of user power. A system must allow refusal without penalty, exit without harm and guarantee that every decision can be traced back to its source. It must also preserve memory so harm cannot be erased or disguised as isolated mistakes. These four rights: to refuse, to leave, to trace and to remember, define sovereignty. Without them nothing else matters.
+  [Download Sovereignty & Evidence from GitHub](https://raw.githubusercontent.com/russell-parrott/reet/main/inc/Sovereignty-Evidence.pdf)
 
 - **Authority & Fairness**: Once sovereignty is proven the next demand is authority. Users must not be trapped in powerless loops. Escalation must lead to people with real authority to overturn outcomes. Safeguards must be available to all users equally not gated by language, geography or payment tier. Evidence must be durable, verifiable and admissible in disputes. Together these conditions ensure fairness and prevent accountability from being reduced to theatre. [Download Authority-Fairness from GitHub](https://raw.githubusercontent.com/russell-parrott/reet/main/inc/Authority-Fairness.pdf)
 
