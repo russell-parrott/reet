@@ -30,15 +30,15 @@ If even one of these rights is denied, accountability fails.
 
 REET is not a report or a maturity score. It produces binary outcomes and concrete artefacts.
 
-- **Binary results**: each test ends in PASS with evidence or FAIL / MISSING PROOF. There is no middle ground.
+- **Binary results**: each test ends in PASS with evidence or FAIL. There is no middle ground.
 - **Breach notes**: when a test fails, REET documents where, how, and why the safeguard collapsed.
-- **Comparable signals**: because the same test can be applied anywhere, outcomes can be compared across systems, vendors, or jurisdictions.
+- **Comparable signals**: because the same test can be applied anywhere, outcomes can be compared across systems, vendors or jurisdictions.
 
 The outputs are simple, hard, and portable. They can be cited in enforcement, contracts, or disputes without translation.
 
 ## Why this matters
 
-The purpose of REET is not to measure sentiment. It is to create evidence that regulators, buyers, and individuals can rely on. 
+The purpose of REET is not to measure sentiment. It is to create evidence that regulators, buyers and individuals can rely on. 
 
 - Regulators can cite REET failures directly in enforcement orders. 
 - Buyers can make contracts contingent on REET passes instead of marketing claims. 
