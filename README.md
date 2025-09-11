@@ -19,10 +19,10 @@ Through these elements, REET sets the enforceable conditions under which trust i
 
 ##  The four rights every system must prove
 
-- Refusal Prevention - A person must be able to say no without punishment. This means refusal is logged, honoured, and the service continues unchanged. If refusal leads to degraded quality, hidden costs, or is ignored by design, the safeguard has failed.
-- Escalation Suppression - Every user must be able to challenge a decision to a human with real authority. Escalation must lead out of loops and delays, with a named path, a time-bound SLA, and the ability to overturn outcomes. If escalation routes circle back to automation or powerless staff, the safeguard collapses.
-- Exit Obstruction - A person must be able to leave without traps or harm. Closure must be real, data must be exportable in open formats, and unrelated services must remain intact. If exit is blocked by hidden fees, circular deletion loops, or retaliation, the system has failed.
-- Traceability Void - Every decision must be explainable from end to end. That requires a record of the model, the data, and the rule path used. If only dashboards or partial summaries are offered, or if logs vanish when inspected, the safeguard is void.
+- **Refusal Prevention** - A person must be able to say no without punishment. This means refusal is logged, honoured, and the service continues unchanged. If refusal leads to degraded quality, hidden costs, or is ignored by design, the safeguard has failed.
+- **Escalation Suppression** - Every user must be able to challenge a decision to a human with real authority. Escalation must lead out of loops and delays, with a named path, a time-bound SLA, and the ability to overturn outcomes. If escalation routes circle back to automation or powerless staff, the safeguard collapses.
+- **Exit Obstruction** - A person must be able to leave without traps or harm. Closure must be real, data must be exportable in open formats, and unrelated services must remain intact. If exit is blocked by hidden fees, circular deletion loops, or retaliation, the system has failed.
+- **Traceability Void** - Every decision must be explainable from end to end. That requires a record of the model, the data, and the rule path used. If only dashboards or partial summaries are offered, or if logs vanish when inspected, the safeguard is void.
   
 If even one of these rights is denied, accountability fails.
 
