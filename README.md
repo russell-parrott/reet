@@ -89,6 +89,6 @@ DOI: [![DOI](https://zenodo.org/badge/1038390482.svg)](https://doi.org/10.5281/z
 
 ---
 
-**Author:** Russell Parrott — Author, *Trust in Systems*  
+**Author:** Russell Parrott — Author, *Structural Governance Standard for AI*  
 **License:** CC BY-ND 4.0 (Attribution required, no derivatives)  
 **Repository Description:** Safeguard to halt AI before harm.  
