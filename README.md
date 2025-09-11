@@ -17,6 +17,25 @@ REET integrates:
 
 Through these elements, REET sets the enforceable conditions under which trust in AI systems can be established, preserved, and demonstrably proven.
 
+##  The Four Rights Every System Must Prove
+
+- Refusal Prevention - A person must be able to say no without punishment. This means refusal is logged, honoured, and the service continues unchanged. If refusal leads to degraded quality, hidden costs, or is ignored by design, the safeguard has failed.
+- Escalation Suppression - Every user must be able to challenge a decision to a human with real authority. Escalation must lead out of loops and delays, with a named path, a time-bound SLA, and the ability to overturn outcomes. If escalation routes circle back to automation or powerless staff, the safeguard collapses.
+- Exit Obstruction - A person must be able to leave without traps or harm. Closure must be real, data must be exportable in open formats, and unrelated services must remain intact. If exit is blocked by hidden fees, circular deletion loops, or retaliation, the system has failed.
+- Traceability Void - Every decision must be explainable from end to end. That requires a record of the model, the data, and the rule path used. If only dashboards or partial summaries are offered, or if logs vanish when inspected, the safeguard is void.
+  
+If even one of these rights is denied, accountability fails.
+
+## What REET Produces
+
+REET is not a report or a maturity score. It produces binary outcomes and concrete artefacts.
+
+- Binary results: each test ends in PASS with evidence or FAIL / MISSING PROOF. There is no middle ground.
+- Breach notes: when a test fails, REET documents where, how, and why the safeguard collapsed.
+- Comparable signals: because the same test can be applied anywhere, outcomes can be compared across systems, vendors, or jurisdictions.
+- 
+The outputs are simple, hard, and portable. They can be cited in enforcement, contracts, or disputes without translation.
+
 ## Components
 
 | Directory | Description |
