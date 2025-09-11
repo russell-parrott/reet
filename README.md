@@ -36,6 +36,14 @@ REET is not a report or a maturity score. It produces binary outcomes and concre
 
 The outputs are simple, hard, and portable. They can be cited in enforcement, contracts, or disputes without translation.
 
+## The Stages of Accountability
+
+- **Sovereignty & Evidence**: This is the baseline: the minimum conditions of user power. A system must allow refusal without penalty, exit without harm, and guarantee that every decision can be traced back to its source. It must also preserve memory so harm cannot be erased or disguised as isolated mistakes. These four rights — to refuse, to leave, to trace, and to remember — define sovereignty. Without them, nothing else matters.
+
+- **Authority & Fairness**: Once sovereignty is proven, the next demand is authority. Users must not be trapped in powerless loops. Escalation must lead to people with real authority to overturn outcomes. Safeguards must be available to all users equally, not gated by language, geography, or payment tier. Evidence must be durable, verifiable, and admissible in disputes. Together, these conditions ensure fairness and prevent accountability from being reduced to theatre.
+
+- **Integrity & Closure**: At the highest stage, evasions must be shut down completely. Safeguards must work in practice, not just on paper. Consent must be genuine and reversible. Remedies must arrive within real deadlines. Metrics must measure harm resolved, not performance theatre. Responsibility must follow the chain, across vendors and jurisdictions, with no loopholes left open. Harm must be recognised in all its forms — financial, emotional, reputational, and systemic. Only then can a system claim full integrity.
+  
 ## Why this matters
 
 The purpose of REET is not to measure sentiment. It is to create evidence that regulators, buyers and individuals can rely on. 
