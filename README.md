@@ -97,6 +97,8 @@ This repository constitutes the authoritative public record of the doctrine, inc
 
 DOI: [![DOI](https://zenodo.org/badge/1038390482.svg)](https://doi.org/10.5281/zenodo.16880174)
 
+---
+
 ## Contributing
 
 This repository is an authoritative reference, not an open wiki.  
@@ -112,4 +114,5 @@ This repository is an authoritative reference, not an open wiki.
 ![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)
 
 ![Status: Reference Edition v1.1](https://img.shields.io/badge/Status-Reference%20Edition%20v1.1-blue.svg)
+
 
