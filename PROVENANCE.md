@@ -10,7 +10,7 @@
 - **11 Aug 2025** — *Masters of Destiny* published on LinkedIn (precursor framing).  
 - **13 Aug 2025** — *Template-public* published on LinkedIn (structural governance framing).  
 - **18 Aug 2025** — REET: The Structural Governance Standard for AI formally defined and published here as v1.0.0, establishing the first public, timestamped, and authored record.  
-- **7 OCTOBER 2025** — REET: The Structural Governance Standard for AI formally defined and published here as v1.1.0, established, timestamped, and authored record. 
+- **7 October 2025** — REET: The Structural Governance Standard for AI formally defined and published here as v1.1.0, established, timestamped, and authored record. 
 ---
 
 ## Authorship Assertion
