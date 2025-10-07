@@ -84,7 +84,7 @@ Free for knowledge. Paid for operationalisation.
 
 ---
 
-## How to Obtain a Commercial Licence
+## How to obtain a Commercial Licence
 
 Institutions wishing to apply REET, GEM-60, REM-60 or VEM-60 within compliance frameworks, governance policies, training, client deliverables or regulatory submissions must obtain formal authorisation from the author.
 
@@ -121,6 +121,7 @@ This repository is an authoritative reference, not an open wiki.
 ![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)
 
 ![Status: Reference Edition v1.1](https://img.shields.io/badge/Status-Reference%20Edition%20v1.1-blue.svg)
+
 
 
 
