@@ -44,11 +44,11 @@ REET establishes the standard; the tests GEM-60, REM-60 and VEM-60, expose its r
 
 A one-hour live exposure drill that reveals whether a system can be governed in practice. GEM-60 tests the same four structural conditions, refusal, escalation, exit and traceability, but under inspection rather than stress. It exposes whether lawful control exists when observed directly.
 
-### REM-60 — Resilience Exposure Method**
+### REM-60 — Resilience Exposure Method
 
 A sixty-minute live stress test that measures whether governance holds under pressure. REM-60 takes the four REET conditions and applies operational strain to them, converting calm inspection into live stress. Where GEM-60 proves governability, REM-60 proves endurance.
 
-### VEM-60 — The Verification Exposure Method**
+### VEM-60 — The Verification Exposure Method
 
 A one-hour live meta-verification layer that tests verifiability itself. VEM-60 checks whether a system can contain uncertainty, cite valid sources, preserve continuity, disclose limits and survive contradiction. It determines not what a system claims, but whether its truth can be verified independently.
 
@@ -112,3 +112,4 @@ This repository is an authoritative reference, not an open wiki.
 ![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)
 
 ![Status: Reference Edition v1.1](https://img.shields.io/badge/Status-Reference%20Edition%20v1.1-blue.svg)
+
