@@ -86,13 +86,26 @@ Free for knowledge. Paid for operationalisation.
 
 ## How to obtain a Commercial Licence
 
-Institutions wishing to apply REET, GEM-60, REM-60 or VEM-60 within compliance frameworks, governance policies, training, client deliverables or regulatory submissions must obtain formal authorisation from the author.
+Institutions wishing to apply **REET**, **GEM-60**, **REM-60** or **VEM-60** within compliance frameworks, governance policies, training, client deliverables or regulatory submissions must obtain formal authorisation.
 
 Requests should be submitted through the contact address listed in this repository.
 
 Once approved, the institution will receive a signed Commercial Licence and controlled access to the private repository containing the operational materials covered by that licence.
 
 Licences are issued per institution and renewed annually to maintain access and update rights.
+
+A Commercial Licence is required in any setting where the material is used within structured or institutional processes. This includes:
+
+- **Compliance or Governance Use** – incorporation within frameworks, audit systems, or oversight models.
+- **Training and Professional Development** – use within educational programs, internal courses, or certification materials.
+- **Consulting or Advisory Work** – application within client deliverables, strategy reviews, or organisational diagnostics.
+- **Regulatory or Policy Submissions** – citation or inclusion within documents submitted to regulators, governments, or standards bodies.
+- **Technical or Software Integration** – embedding the underlying logic within applications, dashboards, or automation systems.
+- **Institutional Research or Policy Design** – reference or adaptation within academic, governmental, or think-tank research outputs.
+- **Procurement or Vendor Evaluation** – use of the doctrine as a standard or benchmark within supplier, vendor, or partner assessments.
+- **Operational Training or Risk Reviews** – application in internal governance training, operational resilience testing, or risk analysis.
+
+These conditions ensure that institutional applications remain traceable, current, and aligned with the author’s published doctrine.
 
 ---
 
@@ -121,6 +134,7 @@ This repository is an authoritative reference, not an open wiki.
 ![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)
 
 ![Status: Reference Edition v1.1](https://img.shields.io/badge/Status-Reference%20Edition%20v1.1-blue.svg)
+
 
 
 
