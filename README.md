@@ -36,20 +36,23 @@ The purpose of REET is not to measure sentiment. It is to create evidence that r
 
 In every case, REET replaces promises with proof.
 
+---
+
 REET establishes the standard; the tests GEM-60, REM-60 and VEM-60, expose its reality. They exist to prove whether the conditions defined by REET hold when observed, when stressed and when verified. Together they turn compliance from language into evidence.
 
-**GEM-60 — The Governance Exposure Method**
+### GEM-60 — The Governance Exposure Method
 
 A one-hour live exposure drill that reveals whether a system can be governed in practice. GEM-60 tests the same four structural conditions, refusal, escalation, exit and traceability, but under inspection rather than stress. It exposes whether lawful control exists when observed directly.
 
-**REM-60 — Resilience Exposure Method**
+### REM-60 — Resilience Exposure Method**
 
 A sixty-minute live stress test that measures whether governance holds under pressure. REM-60 takes the four REET conditions and applies operational strain to them, converting calm inspection into live stress. Where GEM-60 proves governability, REM-60 proves endurance.
 
-**VEM-60 — The Verification Exposure Method**
+### VEM-60 — The Verification Exposure Method**
 
 A one-hour live meta-verification layer that tests verifiability itself. VEM-60 checks whether a system can contain uncertainty, cite valid sources, preserve continuity, disclose limits and survive contradiction. It determines not what a system claims, but whether its truth can be verified independently.
 
+---
 ## License
 
 This work is released under a dual-track licence:
@@ -72,6 +75,7 @@ See COMMERCIAL-LICENCE.md for full terms.
 **Summary:**
 Free for knowledge. Paid for operationalisation.
 
+---
 
 ## How to Obtain a Commercial Licence
 
@@ -82,6 +86,8 @@ Requests should be submitted through the contact address listed in this reposito
 Once approved, the institution will receive a signed Commercial Licence and controlled access to the private repository containing the operational materials covered by that licence.
 
 Licences are issued per institution and renewed annually to maintain access and update rights.
+
+---
 
 ## Provenance
 
@@ -104,4 +110,5 @@ This repository is an authoritative reference, not an open wiki.
 **Repository Description:** Safeguard to halt AI before harm.  
 
 ![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)
+
 ![Status: Reference Edition v1.1](https://img.shields.io/badge/Status-Reference%20Edition%20v1.1-blue.svg)
