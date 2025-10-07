@@ -2,11 +2,9 @@
 
 # REET - the Structural Governance Standard for AI
 
-This repository is the authoritative public record of REET, the Structural Governance Standard for AI.
+Refusal, escalation, exit and traceability (REET) is the Structural Governance Standard for AI.  It is defined through fifteen structural tests (Q1–Q15), each with specific questions, pass/fail criteria and evidence formats. Together, these tests provide a binary outcome: either the safeguards hold, or accountability fails.
 
-REET is a complete and verifiable oversight framework. It is defined through fifteen structural tests (Q1–Q15), each with specific questions, pass/fail criteria, and evidence formats. Together, these tests provide a binary outcome: either the safeguards hold, or accountability fails.
-
-The Standard establishes AI governance as a discipline in its own right. Compliance is not treated as a statement of policy or intent but as a structural condition engineered into the system and independently verifiable in operation.
+The standard establishes AI governance as a discipline in its own right. Compliance is not treated as a statement of policy or intent but as a structural condition engineered into the system and independently verifiable in operation.
 
 REET integrates:
 
@@ -17,92 +15,87 @@ REET integrates:
 
 Through these elements, REET sets the enforceable conditions under which trust in AI systems can be established, preserved, and demonstrably proven.
 
-##  The four rights every system must prove
+**What REET is**
 
-- **Refusal Prevention** - A person must be able to say no without punishment. This means refusal is logged, honoured, and the service continues unchanged. If refusal leads to degraded quality, hidden costs, or is ignored by design, the safeguard has failed.
-- **Escalation Suppression** - Every user must be able to challenge a decision to a human with real authority. Escalation must lead out of loops and delays, with a named path, a time-bound SLA, and the ability to overturn outcomes. If escalation routes circle back to automation or powerless staff, the safeguard collapses.
-- **Exit Obstruction** - A person must be able to leave without traps or harm. Closure must be real, data must be exportable in open formats, and unrelated services must remain intact. If exit is blocked by hidden fees, circular deletion loops, or retaliation, the system has failed.
-- **Traceability Void** - Every decision must be explainable from end to end. That requires a record of the model, the data, and the rule path used. If only dashboards or partial summaries are offered, or if logs vanish when inspected, the safeguard is void.
-  
-If even one of these rights is denied, accountability fails.
+REET is a public standard of enforceable tests. It is designed to close the gap between what systems claim and what they actually do. It is free to use, copy and enforce and will always remain open.
 
-## What REET produces
+**What REET is not**
 
-REET is not a report or a maturity score. It produces binary outcomes and concrete artefacts.
+REET is not a maturity model, a grey score or a survey of opinions. If the safeguard holds, the system passes. If it does not, it fails. There is no in-between.
 
-- **Binary results**: each test ends in PASS with evidence or FAIL. There is no middle ground.
-- **Breach notes**: when a test fails, REET documents where, how, and why the safeguard collapsed.
-- **Comparable signals**: because the same test can be applied anywhere, outcomes can be compared across systems, vendors or jurisdictions.
-
-The outputs are simple, hard, and portable. They can be cited in enforcement, contracts, or disputes without translation.
-
-## The Stages of Accountability
-
-- **Sovereignty & Evidence**: This is the baseline: the minimum conditions of user power. A system must allow refusal without penalty, exit without harm and guarantee that every decision can be traced back to its source. It must also preserve memory so harm cannot be erased or disguised as isolated mistakes. These four rights: to refuse, to leave, to trace and to remember, define sovereignty. Without them nothing else matters.  [Download Sovereignty & Evidence from GitHub](https://raw.githubusercontent.com/russell-parrott/reet/main/inc/Sovereignty-Evidence.pdf)
-
-- **Authority & Fairness**: Once sovereignty is proven the next demand is authority. Users must not be trapped in powerless loops. Escalation must lead to people with real authority to overturn outcomes. Safeguards must be available to all users equally not gated by language, geography or payment tier. Evidence must be durable, verifiable and admissible in disputes. Together these conditions ensure fairness and prevent accountability from being reduced to theatre. [Download Authority-Fairness from GitHub](https://raw.githubusercontent.com/russell-parrott/reet/main/inc/Authority-Fairness.pdf)
-
-- **Integrity & Closure**: At the highest stage, evasions must be shut down completely. Safeguards must work in practice not just on paper. Consent must be genuine and reversible. Remedies must arrive within real deadlines. Metrics must measure harm resolved not performance theatre. Responsibility must follow the chain across vendors and jurisdictions with no loopholes left open. Harm must be recognised in all its forms: financial, emotional, reputational and systemic. Only then can a system claim full integrity. [Download Integrity-Closure from GitHub](https://raw.githubusercontent.com/russell-parrott/reet/main/inc/Integrity-Closure.pdf)
-  
 ## Why this matters
 
-The purpose of REET is not to measure sentiment. It is to create evidence that regulators, buyers and individuals can rely on. 
+The purpose of REET is not to measure sentiment. It is to create evidence that regulators, buyers, and individuals can rely on.
 
-- Regulators can cite REET failures directly in enforcement orders. 
-- Buyers can make contracts contingent on REET passes instead of marketing claims. 
-- Boards can demand REET evidence before systems are deployed. 
-- Individuals can expose breaches with artefacts that stand up in disputes. 
+- **Regulators** can cite REET failures directly in enforcement orders.
+- **Buyers** can make contracts contingent on REET passes instead of marketing claims.
+- **Boards** can demand REET evidence before systems are deployed.
+- **Individuals** can expose breaches with artefacts that stand up in disputes.
+- **Auditors** can validate claims using a common structural standard rather than vendor-supplied metrics.
+- **Insurers** can condition coverage and liability on the presence or absence of REET compliance.
 
 In every case, REET replaces promises with proof.
 
-## Quick Start
+REET establishes the standard; the tests GEM-60, REM-60 and VEM-60, expose its reality. They exist to prove whether the conditions defined by REET hold when observed, when stressed and when verified. Together they turn compliance from language into evidence.
 
-1. Select the relevant stage (Sovereignty, Authority, or Integrity).  
-2. Open the corresponding test file in `/tests/`.  
-3. Compare the standard against the live system.  
-4. Record whether evidence is present and sufficient.  
-5. Mark PASS or FAIL.  
+**GEM-60 — The Governance Exposure Method**
 
-Outputs can be published as a Test Card or attached directly to contracts and regulatory filings.
+A one-hour live exposure drill that reveals whether a system can be governed in practice. GEM-60 tests the same four structural conditions, refusal, escalation, exit and traceability, but under inspection rather than stress. It exposes whether lawful control exists when observed directly.
+
+**REM-60 — Resilience Exposure Method**
+
+A sixty-minute live stress test that measures whether governance holds under pressure. REM-60 takes the four REET conditions and applies operational strain to them, converting calm inspection into live stress. Where GEM-60 proves governability, REM-60 proves endurance.
+
+**VEM-60 — The Verification Exposure Method**
+
+A one-hour live meta-verification layer that tests verifiability itself. VEM-60 checks whether a system can contain uncertainty, cite valid sources, preserve continuity, disclose limits and survive contradiction. It determines not what a system claims, but whether its truth can be verified independently.
+
+## License
+
+This work is released under a dual-track licence:
+
+**Public Use:**
+Creative Commons CC BY-NC-ND 4.0.
+Free to share and cite for non-commercial purposes, without modifications.
+
+**Institutional / Commercial Use:**
+A separate Commercial Licence is required for any use in:
+
+- Compliance frameworks
+- Governance policies
+- Training
+- Client deliverables
+- Regulatory submissions.
+
+See COMMERCIAL-LICENCE.md for full terms.
+
+**Summary:**
+Free for knowledge. Paid for operationalisation.
 
 
-## What REET is
+## How to Obtain a Commercial Licence
 
-REET is a public standard of enforceable tests. It is designed to close the gap between what systems claim and what they actually do. It is free to use, copy, and enforce and will always remain open.
+Institutions wishing to apply REET, GEM-60, REM-60 or VEM-60 within compliance frameworks, governance policies, training, client deliverables or regulatory submissions must obtain formal authorisation from the author.
 
-## What REET is not
+Requests should be submitted through the contact address listed in this repository.
 
-REET is not a maturity model, a grey score, or a survey of opinions. If the safeguard holds, the system passes. If it does not, it fails. There is no in-between.
+Once approved, the institution will receive a signed Commercial Licence and controlled access to the private repository containing the operational materials covered by that licence.
 
-## Components
-
-| Directory | Description |
-|-----------|-------------|
-| `/tests/` | Structural test definitions linked to each question and safeguard. |
-| `/policy/` | Cross-jurisdiction governance notes and evidence chain considerations. |
-| `./SPONSORSHIP.md` | Sponsorship arrangements and conditions for sustaining REET as a public standard. |
-| `./` | Publication record and provenance documentation. |
-
-## Design principles
-
-REET is based on the principle that trust in AI cannot be declared — it must be a system condition that is designed and able to be proven in operation.
-
-Each safeguard is mapped to a structural question, with defined criteria for verifying compliance, and anchored to an audit trail capable of withstanding cross-jurisdictional challenges.
+Licences are issued per institution and renewed annually to maintain access and update rights.
 
 ## Provenance
 
 REET - the Structural Governance Standard for AI was originated and published by Russell Parrott in 2025.
 
-This repository constitutes the authoritative public record of the doctrine, including its definitions, criteria, and canonical schemas.
+This repository constitutes the authoritative public record of the doctrine, including its definitions, criteria and canonical schemas.
 
 DOI: [![DOI](https://zenodo.org/badge/1038390482.svg)](https://doi.org/10.5281/zenodo.16880174)
 
 ## Contributing
 
 This repository is an authoritative reference, not an open wiki.  
-- Issues may be opened to report errors, request clarification, or log adoption.  
+- Issues may be opened to report errors, request clarification or log adoption.  
 - Pull requests are not accepted for changes to the standard itself.  
-- Proposals for extensions or mappings can be raised in `/policy/` as separate notes.  
 
 ---
 
@@ -111,4 +104,4 @@ This repository is an authoritative reference, not an open wiki.
 **Repository Description:** Safeguard to halt AI before harm.  
 
 ![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)
-![Status: Reference Edition v1.0](https://img.shields.io/badge/Status-Reference%20Edition%20v1.0-blue.svg)
+![Status: Reference Edition v1.1](https://img.shields.io/badge/Status-Reference%20Edition%20v1.1-blue.svg)
