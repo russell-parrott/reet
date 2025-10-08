@@ -1,5 +1,3 @@
-[![DOI](https://zenodo.org/badge/1038390482.svg)](https://doi.org/10.5281/zenodo.16880174)
-
 # REET - the Structural Governance Standard for AI
 
 Refusal, escalation, exit and traceability (REET) is the Structural Governance Standard for AI.  It is defined through fifteen structural tests (Q1–Q15), each with specific questions, pass/fail criteria and evidence formats. Together, these tests provide a binary outcome: either the safeguards hold, or accountability fails.
@@ -107,8 +105,6 @@ REET - the Structural Governance Standard for AI was originated and published by
 
 This repository constitutes the authoritative public record of the doctrine, including its definitions, criteria and canonical schemas.
 
-DOI: [![DOI](https://zenodo.org/badge/1038390482.svg)](https://doi.org/10.5281/zenodo.16880174)
-
 ---
 
 ## Contributing
@@ -126,6 +122,7 @@ This repository is an authoritative reference, not an open wiki.
 ![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)
 
 ![Status: Reference Edition v1.1](https://img.shields.io/badge/Status-Reference%20Edition%20v1.1-blue.svg)
+
 
 
 
